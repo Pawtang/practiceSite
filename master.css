@@ -1,0 +1,51 @@
+body{
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  background-color: #333;
+}
+
+article{
+  display: block;
+  width: 60%;
+  min-width: 600px;
+  padding: 50px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+section{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #555;
+}
+
+header{
+  background-image: url(https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+margin: auto;
+  padding: 50px;
+}
+
+#left{
+  float: left;
+  clear: left;
+}
+
+#right {
+  float: right;
+  clear: right;
+}
+
+.sidebar {
+  font-size: 3em;
+  width: 15%;
+  height: 100vh;
+  background-color: white;
+}
+
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
